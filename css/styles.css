@@ -900,3 +900,7 @@ menu:hover {
 .form-inputs:focus {
 	border-color: var(--accent-color);
 }
+
+input[name="name"]:hover ~ .form-icon-name {
+	fill: var(--accent-color) !important;
+}
