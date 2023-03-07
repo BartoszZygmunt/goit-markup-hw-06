@@ -705,3 +705,68 @@ menu:hover {
 	opacity: 0;
 	pointer-events: none;
 }
+
+.footer-div-3 {
+	/*pusty ale potrzeby dla oznaczenia kwasów w stopce */
+}
+.newsletter-text-top {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+.form-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 12px;
+	height: 50px;
+	width: 570px;
+}
+.button-footer {
+	height: 50px;
+	width: 200px;
+	background-color: var(--accent-color);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	gap: 25px;
+}
+.text-subscribe {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+	padding-left: 27px;
+}
+.icon-send-footer {
+	fill: rgba(255, 255, 255, 1);
+}
+.email-footer {
+	height: 100%;
+	width: 358px;
+	padding-left: 16px;
+	background-color: #2f303a;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+	border-radius: 4px;
+	color: rgba(255, 255, 255, 0.6);
+
+	/*background-image: url("../images/bg.png");*/
+	/*background-size: cover;*/
+}
+.email-footer:placeholder-shown {
+	padding-left: 16px;
+	height: 47px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.25;
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
+}
