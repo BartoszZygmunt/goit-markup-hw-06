@@ -770,3 +770,100 @@ menu:hover {
 	letter-spacing: 0.03em;
 	color: rgba(255, 255, 255, 0.6);
 }
+.form-main-text-top {
+	height: 23px;
+	margin: 40px auto 12px auto;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: center;
+	letter-spacing: 0.03em;
+	color: var(--main-text-color);
+}
+.form-main {
+}
+.label-form {
+	height: 14px;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 1.16;
+	letter-spacing: 0.01em;
+	color: #757575;
+	margin-left: 40px;
+	margin-bottom: 4px;
+}
+.form-inputs {
+	width: 448px;
+	height: 40px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	background: #ffffff;
+
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+}
+
+.form-area {
+	width: 448px;
+	height: 120px;
+	background: #ffffff;
+	margin-left: 40px;
+	margin-bottom: 20px;
+	border: 1px solid rgba(33, 33, 33, 0.2);
+	border-radius: 4px;
+
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.01em;
+	color: rgba(117, 117, 117, 0.5);
+	padding: 12px 16px;
+}
+
+.form-area:placeholder-shown {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 14px;
+	letter-spacing: 0.01em;
+	color: rgba(117, 117, 117, 0.5);
+	padding: 12px 16px;
+}
+.form-agree-text {
+	margin-left: 52px;
+	margin-bottom: 30px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+.terms-link {
+	color: var(--accent-color);
+}
+
+.button-main-form-div {
+	display: flex;
+	justify-content: center;
+}
+
+.button-main-form {
+	height: 50px;
+	width: 200px;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.88;
+	letter-spacing: 0.06em;
+	color: #ffffff;
+	background-color: var(--accent-color);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
