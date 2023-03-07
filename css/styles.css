@@ -883,11 +883,10 @@ menu:hover {
 	border-color: var(--accent-color);
 }
 
-#name:hover ~ .form-icon-div-child .form-icon,
-#name:focus ~ .form-icon-div-child .form-icon,
-#phone:hover ~ .form-icon-div-child .form-icon,
-#phone:focus ~ .form-icon-div-child .form-icon,
-#email:hover ~ .form-icon-div-child .form-icon,
-#email:focus ~ .form-icon-div-child .form-icon {
+#name:focus-within ~ .form-icon-div-child .form-icon,
+#name:focus-visible ~ .form-icon-div-child .form-icon,
+#phone:focus-within ~ .form-icon-div-child .form-icon,
+#email:focus-within ~ .form-icon-div-child .form-icon {
 	fill: var(--accent-color);
+	border-color: var(--accent-color);
 }
