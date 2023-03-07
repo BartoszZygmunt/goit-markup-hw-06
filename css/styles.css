@@ -877,30 +877,17 @@ menu:hover {
 	left: 55px;
 	top: 14px;
 }
-.form-icon-name {
-	fill: rgba(33, 33, 33, 1);
-}
-.form-icon-name:hover {
-	fill: var(--accent-color);
-}
-.form-icon-phone {
-	fill: rgba(33, 33, 33, 1);
-}
-.form-icon-phone:hover {
-	fill: var(--accent-color);
-}
-.form-icon-email {
-	fill: rgba(33, 33, 33, 1);
-}
-.form-icon-email:hover {
-	fill: var(--accent-color);
-}
 
 .form-inputs:hover,
 .form-inputs:focus {
 	border-color: var(--accent-color);
 }
 
-input[name="name"]:hover ~ .form-icon-name {
-	fill: var(--accent-color) !important;
+#name:hover ~ .form-icon-div-child .form-icon,
+#name:focus ~ .form-icon-div-child .form-icon,
+#phone:hover ~ .form-icon-div-child .form-icon,
+#phone:focus ~ .form-icon-div-child .form-icon,
+#email:hover ~ .form-icon-div-child .form-icon,
+#email:focus ~ .form-icon-div-child .form-icon {
+	fill: var(--accent-color);
 }
