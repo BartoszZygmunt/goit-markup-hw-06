@@ -844,7 +844,10 @@ menu:hover {
 	padding: 12px 16px;
 }
 .form-agree-text {
+	width: 420px;
 	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
@@ -852,6 +855,7 @@ menu:hover {
 	line-height: 1.71;
 	letter-spacing: 0.03em;
 	color: #757575;
+	position: relative;
 }
 .terms-link {
 	color: var(--accent-color);
@@ -895,4 +899,28 @@ menu:hover {
 #email:focus-within ~ .form-icon-div-child .form-icon {
 	fill: var(--accent-color);
 	border-color: var(--accent-color);
+}
+
+.input-checkbox {
+	opacity: 0;
+	margin-right: 8px;
+	cursor: pointer;
+}
+
+.uncheck-icon {
+	position: absolute;
+	left: 0px;
+	top: 5px;
+}
+
+.uncheck-icon:hover ~ .check-icon {
+	visibility: visible;
+}
+
+.check-icon {
+	position: absolute;
+	left: 0px;
+	top: 5px;
+	z-index: -100;
+	visibility: hidden;
 }
