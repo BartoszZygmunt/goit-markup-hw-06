@@ -912,24 +912,29 @@ menu:hover {
 
 .input-checkbox {
 	opacity: 0;
-	margin-right: 8px;
+	position: absolute;
 	cursor: pointer;
+	width: 16px;
+	height: 15px;
+	top: 4px;
+	left: 3px;
+	z-index: 20;
 }
 
 .uncheck-icon {
 	position: absolute;
-	left: 0px;
-	top: 5px;
-}
-
-.uncheck-icon:hover ~ .check-icon {
-	visibility: visible;
+	left: 3px;
+	top: 4px;
 }
 
 .check-icon {
 	position: absolute;
-	left: 0px;
-	top: 5px;
+	left: 3px;
+	top: 4px;
 	z-index: -100;
 	visibility: hidden;
+}
+
+.input-checkbox:checked ~ .check-icon {
+	visibility: visible;
 }
